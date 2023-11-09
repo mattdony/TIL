@@ -1,7 +1,7 @@
 Date: 2023.11.09
 >Udemy의 [초보자를 위한 Docker 실습 - 데브옵스(DevOps)](https://www.udemy.com/course/docker-hands-on-devops/) 강의 내용 정리
 
-#### Container에 명령하기(CMD)와  진입점(ENTRYPOINT)
+## Container에 명령하기(CMD)와  진입점(ENTRYPOINT)
 **Container에 명령하기**
 - Container에 원하는 명령어를 내리기 위해서는 컨테이너를 생성할 때 명령어를 입력하는 방법과 `Dockerfile`에 명령어를 기술하는 두가지 방법이 있다.
 	- 생성할 때 원하는 명령어를 입력 예시:  `docker run ubuntu sleep 5`
