@@ -1,3 +1,6 @@
+---
+sticker: ""
+---
 Date: 2023.11.08
 >Udemy의 [초보자를 위한 Docker 실습 - 데브옵스(DevOps)](https://www.udemy.com/course/docker-hands-on-devops/) 강의 내용 정리
 ## Docker 란?
