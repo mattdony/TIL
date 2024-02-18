@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS Layout Master/01. 개발환경설정.md",
+                "file": "CSS Layout Master/component/Vite.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Master/01. 개발환경설정.md",
+                "file": "CSS Layout Master/component/Vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Master/01. 개발환경설정.md",
+                "file": "CSS Layout Master/component/Vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS Layout Master/01. 개발환경설정.md"
+                "file": "CSS Layout Master/component/Vite.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "4c54ee6a3b9c939d",
   "lastOpenFiles": [
-    "Docker/DockerBasic_01_기본 명령어, 이미지 만들기.md",
     "CSS Layout Master/01. 개발환경설정.md",
+    "CSS Layout Master/component/Vite.md",
+    "CSS Layout Master/component",
+    "Docker/DockerBasic_01_기본 명령어, 이미지 만들기.md",
     "CSS Layout Master",
     "EM Worship Service/20240213_EM_Meeting.md",
     "EM Worship Service/20240204_EM_Meeting.md",
@@ -189,7 +191,6 @@
     "무제 폴더/test.md",
     "무제 폴더 7",
     "무제 폴더 6",
-    "무제 폴더 5",
     "test.md",
     "Test02/test0.md",
     "Test11/test.md",
