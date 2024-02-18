@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS Layout Master/component/Vite.md",
+                "file": "CSS Layout Master/Knowledge Note/Vite.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Master/component/Vite.md",
+                "file": "CSS Layout Master/Knowledge Note/Vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Master/component/Vite.md",
+                "file": "CSS Layout Master/Knowledge Note/Vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS Layout Master/component/Vite.md"
+                "file": "CSS Layout Master/Knowledge Note/Vite.md"
               }
             }
           },
@@ -156,11 +156,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "4c54ee6a3b9c939d",
+  "active": "3ab273d7277ef195",
   "lastOpenFiles": [
     "CSS Layout Master/01. 개발환경설정.md",
-    "CSS Layout Master/component/Vite.md",
-    "CSS Layout Master/component",
+    "CSS Layout Master/Knowledge Note/Vite.md",
+    "CSS Layout Master/Knowledge Note",
     "Docker/DockerBasic_01_기본 명령어, 이미지 만들기.md",
     "CSS Layout Master",
     "EM Worship Service/20240213_EM_Meeting.md",
