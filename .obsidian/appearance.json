@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "custom-rainbow-colors",
+    "extended-colorschemes"
+  ],
+  "theme": "obsidian",
+  "textFontFamily": "Cascadia Code PL",
+  "interfaceFontFamily": ""
+}
