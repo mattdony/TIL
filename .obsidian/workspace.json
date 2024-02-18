@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md"
+                "file": "README.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "4c54ee6a3b9c939d",
   "lastOpenFiles": [
-    "CSS Layout Masterclass/01_Introduction.md",
     "CSS Layout Masterclass/02_Flexbox.md",
+    "CSS Layout Masterclass/01_Introduction.md",
     "0. Glossary/Vite.md",
     "0. Glossary",
     "Docker/DockerBasic_01_기본 명령어, 이미지 만들기.md",
