@@ -58,7 +58,7 @@
 		height: 300px;
 		display: flex;
 		flex-direction: row-reverse;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 	}
 	
