@@ -29,5 +29,22 @@
 	```
 
 ### Flexbox의 축(axis)의 개념
-- Flexbox에는 주축(main axis)과 교차축(cross axis) 두 가지 축이 있다.
-- 
+- Flexbox에는 주축(main axis)과 교차축(cross axis) 두 가지 축이 있으며, 축의 방향에 따라 요소들이 배치된다.
+- **주축(Main Axis)**
+	- `flex-direction` 으로 주축의 방향을 설정할 수 있으며 기본값은 `row` 이다.
+		```css
+		.parents {
+			display: flex;
+			flex-direction: row; /* default */
+		}
+		```
+	- `flex-direction` 값에 따라 주축은 네 가지 방향을 갖는다.
+		- `row`: ➡️ (왼쪽 > 오른쪽)
+		- `row-reverse`: ⬅️ (오른쪽 > 왼쪽)
+		- `column`: ⬇️ (위 > 아래)
+		- `column-reverse`: ⬆️ (아래 > 위)
+- **교차축(Cross Axis)**
+	- 주축과 수직을 이루며 `flex-direction` 을 통해 주축을 설정하면 수직방향으로 별도의 선언 없이 자동으로 교차축이 설정된다.
+	- `flex-direction` 에 따라 교차축은 두 가지 방향을 갖는다.
+		- `row`, `row-reverse` : ⬇️ (위 > 아래)
+		- `column`, `column-reverse`: ➡️ (왼쪽 > 오른쪽)
