@@ -85,4 +85,4 @@
 	  <div class="child">4</div>
 	</div>
 	```
-	![[CSS Layout Masterclass/assets/fig01.png]]
+	![실행결과](../assets/fig01.png)
