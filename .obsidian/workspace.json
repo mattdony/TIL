@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CSS Layout Masterclass/02_Flexbox.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -158,8 +158,12 @@
   },
   "active": "4c54ee6a3b9c939d",
   "lastOpenFiles": [
-    "CSS Layout Masterclass/01_Introduction.md",
+    "0. Glossary/assets/fig01.png",
     "CSS Layout Masterclass/02_Flexbox.md",
+    "0. Glossary/assets",
+    "CSS Layout Masterclass/01_Introduction.md",
+    "CSS Layout Masterclass/assets/fig01.png",
+    "CSS Layout Masterclass/assets",
     "README.md",
     "0. Glossary/Vite.md",
     "0. Glossary",
@@ -190,8 +194,6 @@
     "2024-02-10.md",
     "불법주정차 단속 및 차량견인 (시도로 지역대)_20230801_5페이지 표시.pdf",
     "무제 폴더/test.md",
-    "무제 폴더 7",
-    "무제 폴더 6",
     "test.md",
     "Test02/test0.md",
     "Test11/test.md",
