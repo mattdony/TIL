@@ -6,7 +6,7 @@
 ### Flexbox의 사용하기
 1. 일반적으로 표현할 요소의 부모요소에 표현방식을 선언한다. 
 	```css
-	/* CSS */
+	/* style.css */
 	.parents {
 		display: flex; /* flexbox 설정 */
 		gap: 10px; /* 자식요소들 간의 간격을 부모요소에 설정*/
@@ -20,12 +20,18 @@
 	```
 	
 	```html
-	<!-- HTML -->
-	<div class="parents">
-	  <div class="child"></div>
-	  <div class="child"></div>
-	  <div class="child"></div>
-	</div>
+	<!-- index.html -->
+	<head>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="parents">
+			<div class="child"></div>
+			<div class="child"></div>
+			<div class="child"></div>
+		</div>
+	</body>
 	```
 
 ### Flexbox의 축(axis)의 개념
@@ -53,7 +59,7 @@
 	- `align-items` 속성을 통해 교차축방향으로 요소들이 어떻게 배치될 것인지 설정 할 수 있다.
 - 예시
 	```css
-	/* CSS */
+	/* sytle.css */
 	.parents {
 		height: 300px;
 		display: flex;
@@ -77,12 +83,12 @@
 	```
 	
 	```html
-	<!-- HTML -->
+	<!-- index.html -->
 	<div class="parents">
-	  <div class="child">1</div>
-	  <div class="child">2</div>
-	  <div class="child">3</div>
-	  <div class="child">4</div>
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+		<div class="child">4</div>
 	</div>
 	```
 	![[CSS Layout Masterclass/assets/fig01.png]]
