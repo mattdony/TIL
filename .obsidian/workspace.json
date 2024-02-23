@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CSS Layout Masterclass/02_Flexbox.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -158,8 +158,8 @@
   },
   "active": "c53f1dd2937bd510",
   "lastOpenFiles": [
-    "CSS Layout Masterclass/README.md",
     "CSS Layout Masterclass/02_Flexbox.md",
+    "CSS Layout Masterclass/README.md",
     "CSS Layout Masterclass/01_Introduction.md",
     "README.md",
     "CSS.md",
