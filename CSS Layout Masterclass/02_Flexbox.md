@@ -6,7 +6,8 @@
 <br>
 
 ### Flexbox의 사용하기
-1. 일반적으로 표현할 요소의 부모요소에 표현방식을 선언한다. 
+- 일반적으로 표현할 요소의 부모요소에 표현방식(속성)을 선언한다. 
+	- 자식요소들에 사용하는 속성도 있음(`order`, `align-self`, 등등등)
 	```css
 	/* style.css */
 	.parents {
@@ -98,8 +99,7 @@
 		<div class="child">4</div>
 	</div>
 	```
-	
-	![[CSS Layout Masterclass/assets/fig01.png]]
+	![[CSS Layout Masterclass/assets/flexbox_fig01.png]]
 
 <br>
 
@@ -141,8 +141,7 @@
 			<div class="child">15</div>
 		</div>
 		```
-		
-		![[CSS Layout Masterclass/assets/fig02.png]]
+		![[CSS Layout Masterclass/assets/flexbox_fig02.png]]
 
 - **여러 줄로 표시(Multi Line)**
 	- `felx-wrap`의 속성을 `wrap`으로 할 경우 자식 요소들의 길이에 맞춰 여러줄로 나타낸다.
@@ -166,10 +165,9 @@
 			<div class="child">15</div>
 		</div>
 		```
-		
-		![[CSS Layout Masterclass/assets/fig03.png]]
+		![[CSS Layout Masterclass/assets/flexbox_fig03.png]]
 	- `wrap-reverse`의 경우 마지막줄부터 표시된다.
-		![[CSS Layout Masterclass/assets/fig04.png]]
+		![[CSS Layout Masterclass/assets/flexbox_fig04.png]]
 
 <br>
 
@@ -179,7 +177,7 @@
 - `align-content`는 교차축을 기준으로 자식 요소들을 배치하며, 주축을 기준으로 자식 요소를 배치하는 `justify-content`의 유사하다.
 - align-items 와 align-content 비교 예시
 	- `align-items: flex-end` vs `align-content: flex-end`
-	![[CSS Layout Masterclass/assets/fig05.png]]
+	![[CSS Layout Masterclass/assets/flexbox_fig05.png]]
 	- 양쪽 모두 `flex-direction: row;`이며, 같은 `height`와 `gap` 을 적용
 	- `align-items`의 경우 자식요소 전체를 교차축의 끝방향으로 배치시키지만, `height`값을 줄간격을 자동으로 계산해 지정한 `gap` 보다 더 많이 벌어진다. (부모 flexbox의 높이 값이 클수록 줄 간격도 커진다.)
 	- `align-content`의 경우 지정한 `gap`을 유지하며 자식 요소 전체를 교차축의 끝방향으로 배치시킨다. (부모 flexbox의 높이 값에 상관없이 자식요소들의 줄간격이 유지된다.)
@@ -194,6 +192,8 @@
 	```css
 	/* style.css */
 	.parents {
+		display: felx;
+		
 		/* flex-direction: column; 과 같은 기능*/
 		flex-flox: column;
 	}
@@ -202,10 +202,107 @@
 	```css
 	/* style.css */
 	.parents {
+		display: flex;
+		
 		/* flex-direction: column; */
 		/* flex-wrap: wrap; */
-		
 		/* 위의 두 줄과 같은 기능 */
 		flex-flox: column wrap;
 	}
 	```
+
+<br>
+
+### 자식요소에 적용하는 속성
+#### order
+> - Flexbox 안의 자식요소들의 순서를 결정
+- 모든 자식 요소는 기본적으로 `order: 0;`을 기본값으로 갖는다.
+- `order`에 정수(음수, 0, 양수)를 입력하면 오름차순으로 자식 요소들이 정렬된다.
+- 예시
+	```css
+	/* style.css */
+	.parents {
+		display: flex;
+		gap: 10px;
+	}
+	
+	.child {
+		width: 100px;
+		height: 100px;
+		background-color: purple;		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 50px;
+		color: whitesmoke;
+	}
+		
+	.child:nth-child(2) {
+		background-color: skyblue;
+		order: 3;
+	}
+		
+	.child:nth-child(4) {
+		background-color: tomato;
+		order: -8;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1</div>  <!-- order: 0 -->
+		<div class="child">2</div>  <!-- order: 3 -->
+		<div class="child">3</div>  <!-- order: 0 -->
+		<div class="child">4</div>  <!-- order: -8 -->
+		<div class="child">5</div>  <!-- order: 0 -->
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/flexbox_fig06.png]]
+	- `order` 값의 오름차순(-8, 0, 0, 0, 3)으로 요소가 정렬됨
+
+
+<Br>
+
+#### align-self
+> - 교차축으로 방향으로 자식요소 개별의 위치를 결정
+- 예시
+	```css
+	/* style.css */
+	.parents {
+		display: felx;
+		gap: 10px;
+		height: 300px;
+	}
+
+	.child {
+		width: 100px;
+		height: 100px;
+		background-color: purple;		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 50px;
+		color: whitesmoke;
+	}
+	
+	.child:first-child {
+		align-self: flex-start;
+	}
+	
+	.child:last-child {
+		align-self: flex-end;
+	}
+
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/flexbox_fig07.png]]
+	

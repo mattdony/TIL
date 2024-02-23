@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "459f9ee2ba38bcf2",
+        "id": "4bbab955a779469e",
         "type": "tabs",
         "children": [
           {
-            "id": "e37abe25422b9fa4",
+            "id": "c53f1dd2937bd510",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "CSS Layout Masterclass/02_Flexbox.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -156,19 +156,24 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e37abe25422b9fa4",
+  "active": "c53f1dd2937bd510",
   "lastOpenFiles": [
-    "README.md",
-    "CSS Layout Masterclass/assets/fig05.png",
+    "CSS Layout Masterclass/README.md",
     "CSS Layout Masterclass/02_Flexbox.md",
-    "CSS Layout Masterclass/assets/fig04.png",
-    "CSS Layout Masterclass/assets/fig04.png",
     "CSS Layout Masterclass/01_Introduction.md",
-    "CSS Layout Masterclass/assets/fig03.png",
-    "CSS Layout Masterclass/assets/fig03.png",
-    "CSS Layout Masterclass/assets/fig02.png",
+    "README.md",
+    "CSS.md",
+    "\"CSS.md",
+    "CSS Layout Masterclass/assets/flexbox_fig07.png",
+    "CSS Layout Masterclass/assets/flexbox_fig01.png",
+    "CSS Layout Masterclass/assets/flexbox_fig06.png",
+    "CSS Layout Masterclass/assets/flexbox_fig05.png",
+    "CSS Layout Masterclass/assets/flexbox_fig04.png",
+    "CSS Layout Masterclass/assets/flexbox_fig04.png",
+    "CSS Layout Masterclass/assets/flexbox_fig03.png",
+    "CSS Layout Masterclass/assets/flexbox_fig03.png",
+    "CSS Layout Masterclass/assets/flexbox_fig02.png",
     "0. Glossary/Vite.md",
-    "CSS Layout Masterclass/assets/fig01.png",
     "0. Glossary/assets/fig01.png",
     "0. Glossary/assets",
     "CSS Layout Masterclass/assets",
@@ -182,8 +187,6 @@
     "2024-02-13.md",
     "EM 2024년도 상반기 활동 계획.md",
     "강원대AI라이브러리/Jenkins 설정.md",
-    "강원대AI라이브러리/assets/csrf_protection.png",
-    "강원대AI라이브러리/assets/maven_installations.png",
     "강원대AI라이브러리/assets",
     "강원대AI라이브러리",
     "무제 파일.canvas",
