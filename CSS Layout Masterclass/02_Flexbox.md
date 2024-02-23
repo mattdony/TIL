@@ -103,17 +103,17 @@
 
 <br>
 
-### flex-flow
+### flex-wrap
 > - Flexbox 안의 자식요소들에 대해 다중라인 여부를 결정
 - 한 줄로 표시(Single Line)
-	- `flex-flow`의 기본값은 `nowrap` 으로, 자식 요소들을 한줄로 표현한다.
-	- 자식 요소들의 총 넓이(width)가 부모인 flexbox의 넓이보다 큰 경우, 자식요소의 넓이를 일정비율로 축소해 표현한다.
+	- `flex-wrap`의 기본값은 `nowrap` 으로, 자식 요소들을 한줄로 표현한다.
+	- 자식 요소들의 총 넓이(width)가 부모인 flexbox의 넓이보다 큰 경우, 자식요소의 넓이가 축소된다.
 	- 예시
 		```css
 		/* sytle.css */
 		.parents {
 			display: flex;
-			/* flex-flow: nowrap; 기본값*/
+			/* flex-wrap: nowrap; 기본값*/
 			gap: 10px;
 		}
 		
@@ -145,13 +145,13 @@
 		![[CSS Layout Masterclass/assets/fig02.png]]
 
 - 여러 줄로 표시(Multi Line)
-	- `felx-flow`의 속성을 `wrap`으로 할 경우 자식 요소들의 길이에 맞춰 여러줄로 나타낸다.
+	- `felx-wrap`의 속성을 `wrap`으로 할 경우 자식 요소들의 길이에 맞춰 여러줄로 나타낸다.
 	- 예시
 		```css
 		/* sytle.css */
 		.parents {
 			display: flex;
-			felx-flow: wrap;
+			felx-wrap: wrap;
 			gap: 10px;
 		}
 		```
@@ -166,3 +166,33 @@
 			<div class="child">15</div>
 		</div>
 		```
+		
+		![[CSS Layout Masterclass/assets/fig03.png]]
+	- `wrap-reverse`의 경우 마지막줄부터 표시된다.
+		![[CSS Layout Masterclass/assets/fig04.png]]
+
+<br>
+
+### flex-flow
+> - `flex-direction` 과 `flex-wrap` 을 한번에 사용할 수 있는 속성
+- `flex-direction` 속성의 값(`row`, `row-reverse`, `column`, `column-reverse`)과 `flex-wrap` 속성의 값(`nowrap`, `wrap`, `wrap-reverse`)들을 모두 사용할 수 있다.
+- `flex-direction`과 `flex-wrap`의 속성 중 하나 또는 두 속성을 한번에 정해줄 수 있다. (속성 값의 순서는 상관없음)
+- 예시
+	```css
+	/* style.css */
+	.parents {
+		/* flex-direction: column; 과 같은 기능*/
+		flex-flox: column;
+	}
+	```
+
+	```css
+	/* style.css */
+	.parents {
+		/* flex-direction: column; */
+		/* flex-wrap: wrap; */
+		
+		/* 위의 두 줄과 같은 기능 */
+		flex-flox: column wrap;
+	}
+	```
