@@ -20,7 +20,7 @@
 		background-color: orange;
 	}
 	```
-	
+
 	```html
 	<!-- index.html -->
 	<head>
@@ -40,13 +40,15 @@
 
 ### flex-direction
 > - [*] Flexbox의 축(axis) 개념 (매우 중요한 개념 반드시 암기)
+> - 
 - Flexbox에는 주축(main axis)과 교차축(cross axis) 두 가지 축이 있으며, 축의 방향에 따라 요소들이 배치된다.
+
 - **주축(Main Axis)**
 	- `flex-direction` 으로 **주축의 방향을 설정**할 수 있으며 기본값은 `row` 이다.
 		```css
 		.parents {
 			display: flex;
-			flex-direction: row; /* default */
+			/* flex-direction: row; 기본값 */
 		}
 		```
 	- `flex-direction` 값에 따라 주축은 네 가지 방향을 갖는다.
@@ -55,6 +57,7 @@
 		- `column`: ⬇️ (위 > 아래)
 		- `column-reverse`: ⬆️ (아래 > 위)
 	- `justify-conetnt` 속성을 통해 주축방향으로 요소들이 어떻게 배치될 것인지 설정 할 수 있다.
+
 - **교차축(Cross Axis)**
 	- 주축과 수직을 이루며 `flex-direction` 을 통해 주축을 설정하면 수직방향으로 별도의 선언 없이 자동으로 교차축이 설정된다.
 	- `flex-direction` 에 따라 교차축은 두 가지 방향을 갖는다.
@@ -85,7 +88,7 @@
 		color: whitesmoke;
 	}
 	```
-	
+
 	```html
 	<!-- index.html -->
 	<div class="parents">
@@ -95,9 +98,71 @@
 		<div class="child">4</div>
 	</div>
 	```
+	
 	![[CSS Layout Masterclass/assets/fig01.png]]
 
 <br>
 
 ### flex-flow
-> - 
+> - Flexbox 안의 자식요소들에 대해 다중라인 여부를 결정
+- 한 줄로 표시(Single Line)
+	- `flex-flow`의 기본값은 `nowrap` 으로, 자식 요소들을 한줄로 표현한다.
+	- 자식 요소들의 총 넓이(width)가 부모인 flexbox의 넓이보다 큰 경우, 자식요소의 넓이를 일정비율로 축소해 표현한다.
+	- 예시
+		```css
+		/* sytle.css */
+		.parents {
+			display: flex;
+			/* flex-flow: nowrap; 기본값*/
+			gap: 10px;
+		}
+		
+		.child {
+			width: 100px;
+			height: 100px;
+			background-color: purple;
+	
+			/* 숫자를 가운데 표시하기 위한 속성 */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 50px;
+			color: whitesmoke;
+		}
+		```
+
+		```html
+		<!-- index.html -->
+		<div class="parents">
+			<div class="child">1</div>
+			<div class="child">2</div>
+			...
+			<div class="child">14</div>
+			<div class="child">15</div>
+		</div>
+		```
+		
+		![[CSS Layout Masterclass/assets/fig02.png]]
+
+- 여러 줄로 표시(Multi Line)
+	- `felx-flow`의 속성을 `wrap`으로 할 경우 자식 요소들의 길이에 맞춰 여러줄로 나타낸다.
+	- 예시
+		```css
+		/* sytle.css */
+		.parents {
+			display: flex;
+			felx-flow: wrap;
+			gap: 10px;
+		}
+		```
+
+		```html
+		<!-- index.html -->
+		<div class="parents">
+			<div class="child">1</div>
+			<div class="child">2</div>
+			...
+			<div class="child">14</div>
+			<div class="child">15</div>
+		</div>
+		```

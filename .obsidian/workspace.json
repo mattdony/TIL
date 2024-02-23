@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b240dd874ee3eed2",
+        "id": "6bd3ef6e71a3621d",
         "type": "tabs",
         "children": [
           {
-            "id": "4c54ee6a3b9c939d",
+            "id": "9d40b3fdec1bf109",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,11 +156,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "4c54ee6a3b9c939d",
+  "active": "9d40b3fdec1bf109",
   "lastOpenFiles": [
+    "CSS Layout Masterclass/assets/fig02.png",
+    "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/01_Introduction.md",
     "0. Glossary/Vite.md",
-    "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/assets/fig01.png",
     "0. Glossary/assets/fig01.png",
     "0. Glossary/assets",
