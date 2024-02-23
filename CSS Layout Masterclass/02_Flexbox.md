@@ -63,7 +63,7 @@
 	- `flex-direction` 에 따라 교차축은 두 가지 방향을 갖는다.
 		- `row`, `row-reverse` : ⬇️ (위 > 아래)
 		- `column`, `column-reverse`: ➡️ (왼쪽 > 오른쪽)
-	- `align-items` 속성을 통해 교차축방향으로 요소들이 어떻게 배치될 것인지 설정 할 수 있다(flexbox 부모 요소 전체를 해당 속성값으로 배치시킴).
+	- `align-items` 속성을 통해 교차축방향으로 요소들이 어떻게 배치될 것인지 설정 할 수 있다.
 - 예시
 	```css
 	/* sytle.css */
@@ -105,7 +105,7 @@
 
 ### flex-wrap
 > - Flexbox 안의 자식요소들에 대해 다중라인 여부를 결정
-- 한 줄로 표시(Single Line)
+- **한 줄로 표시(Single Line)**
 	- `flex-wrap`의 기본값은 `nowrap` 으로, 자식 요소들을 한줄로 표현한다.
 	- 자식 요소들의 총 넓이(width)가 부모인 flexbox의 넓이보다 큰 경우, 자식요소의 넓이가 축소된다.
 	- 예시
@@ -144,7 +144,7 @@
 		
 		![[CSS Layout Masterclass/assets/fig02.png]]
 
-- 여러 줄로 표시(Multi Line)
+- **여러 줄로 표시(Multi Line)**
 	- `felx-wrap`의 속성을 `wrap`으로 할 경우 자식 요소들의 길이에 맞춰 여러줄로 나타낸다.
 	- 예시
 		```css
@@ -178,6 +178,11 @@
 - `align-content`는 자식요소가 여러줄일 경우에만 동작한다.
 - `align-content`는 교차축을 기준으로 자식 요소들을 배치하며, 주축을 기준으로 자식 요소를 배치하는 `justify-content`의 유사하다.
 - align-items 와 align-content 비교 예시
+	- `align-items: flex-end` vs `align-content: flex-end`
+	![[CSS Layout Masterclass/assets/fig05.png]]
+	- 양쪽 모두 `flex-direction: row;`이며, 같은 `height`와 `gap` 을 적용
+	- `align-items`의 경우 자식요소 전체를 교차축의 끝방향으로 배치시키지만, `height`값을 줄간격을 자동으로 계산해 지정한 `gap` 보다 더 많이 벌어진다. (부모 flexbox의 높이 값이 클수록 줄 간격도 커진다.)
+	- `align-content`의 경우 지정한 `gap`을 유지하며 자식 요소 전체를 교차축의 끝방향으로 배치시킨다. (부모 flexbox의 높이 값에 상관없이 자식요소들의 줄간격이 유지된다.)
 
 <br>
 
