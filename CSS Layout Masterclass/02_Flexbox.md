@@ -63,7 +63,7 @@
 	- `flex-direction` 에 따라 교차축은 두 가지 방향을 갖는다.
 		- `row`, `row-reverse` : ⬇️ (위 > 아래)
 		- `column`, `column-reverse`: ➡️ (왼쪽 > 오른쪽)
-	- `align-items` 속성을 통해 교차축방향으로 요소들이 어떻게 배치될 것인지 설정 할 수 있다.
+	- `align-items` 속성을 통해 교차축방향으로 요소들이 어떻게 배치될 것인지 설정 할 수 있다(flexbox 부모 요소 전체를 해당 속성값으로 배치시킴).
 - 예시
 	```css
 	/* sytle.css */
@@ -170,6 +170,14 @@
 		![[CSS Layout Masterclass/assets/fig03.png]]
 	- `wrap-reverse`의 경우 마지막줄부터 표시된다.
 		![[CSS Layout Masterclass/assets/fig04.png]]
+
+<br>
+
+### align-content
+> - Flexbox로 자식요소를 여러줄로 나타낼때 자식 요소들 간의 배치 형태를 결정
+- `align-content`는 자식요소가 여러줄일 경우에만 동작한다.
+- `align-content`는 교차축을 기준으로 자식 요소들을 배치하며, 주축을 기준으로 자식 요소를 배치하는 `justify-content`의 유사하다.
+- align-items 와 align-content 비교 예시
 
 <br>
 
