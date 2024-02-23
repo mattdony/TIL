@@ -41,7 +41,6 @@
 
 ### flex-direction
 > - [*] Flexbox의 축(axis) 개념 (매우 중요한 개념 반드시 암기)
-> - 
 - Flexbox에는 주축(main axis)과 교차축(cross axis) 두 가지 축이 있으며, 축의 방향에 따라 요소들이 배치된다.
 
 - **주축(Main Axis)**
