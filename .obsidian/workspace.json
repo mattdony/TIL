@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "657b0e5f3f68842f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,7 +169,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c53f1dd2937bd510",
+  "active": "657b0e5f3f68842f",
   "lastOpenFiles": [
     "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/README.md",
