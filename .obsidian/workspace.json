@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "19f0810f69f241a0",
+        "id": "b34131a9d955a441",
         "type": "tabs",
         "children": [
           {
-            "id": "5abccd8617632dd9",
+            "id": "570cbb02ec5c5c25",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,8 +156,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "5abccd8617632dd9",
+  "active": "570cbb02ec5c5c25",
   "lastOpenFiles": [
+    "CSS Layout Masterclass/assets/flexbox_fig08.png",
     "CSS Layout Masterclass/02_Flexbox.md",
     "0. Glossary/Vite.md",
     "CSS Layout Masterclass/01_Introduction.md",
@@ -174,7 +175,6 @@
     "CSS Layout Masterclass/assets/flexbox_fig03.png",
     "CSS Layout Masterclass/assets/flexbox_fig03.png",
     "CSS Layout Masterclass/assets/flexbox_fig02.png",
-    "0. Glossary/assets/fig01.png",
     "0. Glossary/assets",
     "CSS Layout Masterclass/assets",
     "0. Glossary",
@@ -203,7 +203,6 @@
     "무제 폴더/test.md",
     "test.md",
     "Test02/test0.md",
-    "Test11/test.md",
-    "Test01/test1.md"
+    "Test11/test.md"
   ]
 }

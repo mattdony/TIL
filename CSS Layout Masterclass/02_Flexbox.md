@@ -308,19 +308,19 @@
 <br>
 
 #### flex-grow
-> - 화면의 비율에 따라 너가 얼마나 커져야 할지 정해주는 속성
-- Flexbox의 자식요소들에 대해 넓이 값을 정해주지 않으면 기본적으로 자식요속들의 크기 만큼의
+> - 화면의 비율에 따라 너비가 얼마나 커져야 할지 정해주는 속성
+- Flexbox의 자식요소들에 대해 넓이 값을 정해주지 않으면 기본적으로 자식요소가 가지고 있는 컨텐츠의 크기만큼의 너비를 갖는다.
+- 각각의 자식요소에 `flex-grow` 속성을 얼마 만의 너비를 차지할지 비율로 설정 가능하다.
 - 예시
 	```css
 	/* style.css */
 	.parents {
-		display: felx;
-		gap: 10px;
 		height: 300px;
+		display: felx;
 	}
 
 	.child {
-		height: 100px;
+		height: 200px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -330,11 +330,27 @@
 	
 	.child:first-child {
 		backgroud-color: tomaot;
-		flex-grow: 1;
+		flex-grow: 1.5;
 	}
 	
 	.child:last-child {
 		backgroud-color: teal;
-		flex-grow: 2;
+		flex-grow: 1;
 	}
 	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1</div>
+		<div class="child">2</div>
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/flexbox_fig08.png]]
+
+<br>
+
+#### flex-shrink
+> - 화면의 비율에 따라 너비가 얼마나 작아져야 할지 정해주는 속성
+
+- flex-shrink
