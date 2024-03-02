@@ -277,7 +277,7 @@
 	.child {
 		width: 100px;
 		height: 100px;
-		background-color: purple;		
+		background-color: purple;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -309,3 +309,32 @@
 
 #### flex-grow
 > - 화면의 비율에 따라 너가 얼마나 커져야 할지 정해주는 속성
+- Flexbox의 자식요소들에 대해 넓이 값을 정해주지 않으면 기본적으로 자식요속들의 크기 만큼의
+- 예시
+	```css
+	/* style.css */
+	.parents {
+		display: felx;
+		gap: 10px;
+		height: 300px;
+	}
+
+	.child {
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 50px;
+		color: whitesmoke;
+	}
+	
+	.child:first-child {
+		backgroud-color: tomaot;
+		flex-grow: 1;
+	}
+	
+	.child:last-child {
+		backgroud-color: teal;
+		flex-grow: 2;
+	}
+	```
