@@ -40,7 +40,7 @@
 <br>
 
 ### flex-direction
-> - [*] Flexbox의 축(axis) 개념 (매우 중요한 개념 반드시 암기)
+>- [*] Flexbox의 축(axis) 개념 (매우 중요한 개념 반드시 암기)
 - Flexbox에는 주축(main axis)과 교차축(cross axis) 두 가지 축이 있으며, 축의 방향에 따라 요소들이 배치된다.
 
 - **주축(Main Axis)**
@@ -103,7 +103,7 @@
 <br>
 
 ### flex-wrap
-> - Flexbox 안의 자식요소들에 대해 다중라인 여부를 결정
+> Flexbox 안의 자식요소들에 대해 다중라인 여부를 결정
 - **한 줄로 표시(Single Line)**
 	- `flex-wrap`의 기본값은 `nowrap` 으로, 자식 요소들을 한줄로 표현한다.
 	- 자식 요소들의 총 넓이(width)가 부모인 flexbox의 넓이보다 큰 경우, 자식요소의 넓이가 축소된다.
@@ -171,7 +171,7 @@
 <br>
 
 ### align-content
-> - Flexbox로 자식요소를 여러줄로 나타낼때 자식 요소들 간의 배치 형태를 결정
+> Flexbox로 자식요소를 여러줄로 나타낼때 자식 요소들 간의 배치 형태를 결정
 - `align-content`는 자식요소가 여러줄일 경우에만 동작한다.
 - `align-content`는 교차축을 기준으로 자식 요소들을 배치하며, 주축을 기준으로 자식 요소를 배치하는 `justify-content`의 유사하다.
 - align-items 와 align-content 비교 예시
@@ -184,7 +184,7 @@
 <br>
 
 ### flex-flow
-> - `flex-direction` 과 `flex-wrap` 을 한번에 사용할 수 있는 속성
+> `flex-direction` 과 `flex-wrap` 을 한번에 사용할 수 있는 속성
 - `flex-direction` 속성의 값(`row`, `row-reverse`, `column`, `column-reverse`)과 `flex-wrap` 속성의 값(`nowrap`, `wrap`, `wrap-reverse`)들을 모두 사용할 수 있다.
 - `flex-direction`과 `flex-wrap`의 속성 중 하나 또는 두 속성을 한번에 정해줄 수 있다. (속성 값의 순서는 상관없음)
 - 예시
@@ -214,7 +214,7 @@
 
 ### 자식요소에 적용하는 속성
 #### order
-> - Flexbox 안의 자식요소들의 순서를 결정
+> Flexbox 안의 자식요소들의 순서를 결정
 - 모든 자식 요소는 기본적으로 `order: 0;`을 기본값으로 갖는다.
 - `order`에 정수(음수, 0, 양수)를 입력하면 오름차순으로 자식 요소들이 정렬된다.
 - 예시
@@ -258,13 +258,13 @@
 	</div>
 	```
 	![[CSS Layout Masterclass/assets/flexbox_fig06.png]]
-	- `order` 값의 오름차순(-8, 0, 0, 0, 3)으로 요소가 정렬됨
+	- `order` 값의 오름차순(-8, 0, 0, 0, 3)으로 요소가 정렬된다.
 
 
 <Br>
 
 #### align-self
-> - 교차축으로 방향으로 자식요소 개별의 위치를 결정
+> 교차축으로 방향으로 자식요소 개별의 위치를 결정
 - 예시
 	```css
 	/* style.css */
@@ -308,8 +308,8 @@
 <br>
 
 #### flex-grow
-> - 화면의 비율에 따라 너비가 얼마나 커져야 할지 정해주는 속성
-- Flexbox의 자식요소들에 대해 넓이 값을 정해주지 않으면 기본적으로 자식요소가 가지고 있는 컨텐츠의 크기만큼의 너비를 갖는다.
+> 화면의 비율에 따라 너비가 얼마나 커져야 할지 정해주는 속성
+- Flexbox의 자식요소들에 대해 넓이 값을 정해주지 않으면 기본적으로 자식요소가 가지고 있는 컨텐츠의 넓이를 기본 크기로 한다.
 - 각각의 자식요소는 `flex-grow` 속성을 통해 형제 속성들과 비교해 얼마만큼의 너비를 차지할지 비율로 설정하며, 기본값은 0이다.
 - 예시
 	```css
@@ -351,11 +351,137 @@
 <br>
 
 #### flex-shrink
-> - 화면의 비율에 따라 너비가 얼마나 작아져야 할지 정해주는 속성
+> 화면의 비율에 따라 너비가 얼마나 작아져야 할지 정해주는 속성
 
 - `flex-shrink`는 flexbox의 자식요소들이 화면의 넓이에 따라 얼마만큼 줄어들지를 결정하는 속성으로, `flex-grow`와 반대된다.
-- `flex-shrink`의 기본값은 1이며 값이 커질수로 더 빠르게 줄어든다. 0으로 설정한 경우 자식 요소가 가지고 있는 컨텐츠 크기이하로 줄어들지 않는다.
+- `flex-shrink`의 기본값은 1이며 값이 커질수로 더 빠르게 줄어든다. 0으로 설정한 경우 자식 요소의 기본 넓이 이하로 줄어들지 않는다. (기본 크기를 특별히 설정하지 않은 경우 자식요소의 컨텐츠의 넓이를 기본 크기로 갖는다.)
+- `flex-shrink` 값에 상관 없이 먼저 각각의 자식요소가 가지고 있는 기본 크기 이상의 값들을 먼저 축소하며, 모든 자식 요소가 기본 크기만 남겨둔 상태에서 더 축소돼야 할 때 `flex-shrink` 값의 비율로 줄어든다.
 - 예시
 	```css
+	/* style.css */
+	.parents {
+		height: 300px;
+		display: felx;
+	}
+
+	.child {
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 30px;
+		color: whitesmoke;
+	}
 	
+	.child:first-child {
+		backgroud-color: tomaot;
+		flex-grow: 1;
+		flex-shrink: 3;
+	}
+
+	.child:nth-child(2) {
+		backgroud-color: orange;
+		flex-grow: 3;
+		flex-shrink: 0;
+	}
+
+	.child:last-child {
+		backgroud-color: teal;
+		flex-grow: 2;
+		flex-shrink: 1;
+	}
 	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">Flex-Shrink Test Box</div>
+		<div class="child">Flex-Shrink Test Box</div>
+		<div class="child">Flex-Shrink Test Box</div>
+	</div>
+	```
+
+	![[CSS Layout Masterclass/assets/flexbox_fig09.png]]
+	- 결과 화면의 너비: 1388px
+	- 화면의 크기가 충분히 큰 경우 `flex-grow`의 비율(1:3:2)에 따라 자식요소가 너비를 갖는다.
+
+	![[CSS Layout Masterclass/assets/flexbox_fig10.png]]
+	- 결과 화면의 너비: 796px
+	- 화면의 크기가 줄어듬에 따라 자식 요소들의 컨턴츠를 여백이 먼저 줄어든다.
+
+	![[CSS Layout Masterclass/assets/flexbox_fig11.png]]
+	- 결과 화면의 너비: 556px
+	- 모든 여백이 사라진 이후에도 화면이 계속해서 줄어들 경우 `flex-shrink`의 비율(3:0:1)에 따라 화면의 크기가 줄어든다.
+	  (숫자가 클수록 빨리 축소되며, 0 인 경우 기본 크기 이하로 줄어들지 않는다.)
+
+<br>
+
+#### flex-basis
+> 해당 요소의 시작 크기를 설정하는 속성
+- Flexbox의 자식 요소들은 기본적으로 컨텐츠의 너비를 기본 크기로 갖지만, flex-basis를 통해 임의로 지정해 줄 수 있다.
+- 예시
+	```css
+	/* style.css */
+	.parents {
+		height: 250px;
+		display: felx;
+	}
+
+	.child {
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 30px;
+		color: whitesmoke;
+	}
+	
+	.group1:first-child {
+		backgroud-color: tomaot;
+		flex-grow: 1;
+	}
+
+	.group1:last-child {
+		backgroud-color: teal;
+		flex-grow: 1;
+	}
+
+	.group2:first-child {
+		backgroud-color: tomaot;
+		flex-grow: 1;
+		flex-basis: 500px;
+	}
+
+	.group2:last-child {
+		backgroud-color: teal;
+		flex-grow: 1;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child group1">Flex-Basis Test Box</div>
+		<div class="child group1">Flex-Basis Test Box</div>
+	</div>
+	<div class="parents">
+		<div class="child group2">Flex-Basis Test Box</div>
+		<div class="child group2">Flex-Basis Test Box</div>
+	</div>
+	```
+
+	![[CSS Layout Masterclass/assets/flexbox_fig12.png]]
+	- 첫번째 flexbox의 자식 요소들은 같은 컨텐츠와 `flex-grow`값을 가지며 기본 크기를 조정하지 않았기에 차지하는 너비가 같다.
+		- `group1`의 기본 넓이(컨텐츠 크기)
+			- (tomato, teal) = (244.46px, 244.46px)
+		- `group1`의 커진 이후 넓이
+			- (tomato, teal) = (686px, 686px)
+		- `group1`의 늘어난 크기
+			- (tomato, teal) = (441.54px, 441.54px)
+	- 두번째 flexbox의 자식 요소들은 같은 컨텐츠와 `flex-grow`값을 갖지만, 첫번째 자식 요소는 본인의 컨텐츠 너비보다 더 큰 기본 크기(500px)를 지정해 주었기 때문에, 첫번째 자식이 차지하는 너비가 더 크다.
+		- `group2`의 기본 넓이
+			- (tomato, teal) = (500px, 244.46px)
+		- `group2`의 커진 이후 넓이
+			- (tomato, teal) = (813.77px, 558.23px)
+		- `group2`의 늘어난 크기
+			- (tomato, teal) = (313.77px, 313.77px)
