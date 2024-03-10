@@ -171,20 +171,20 @@
 <br>
 
 ### align-content
-> Flexbox로 자식요소를 여러줄로 나타낼때 자식 요소들 간의 배치 형태를 결정
+> Flexbox로 자식요소를 여러 줄로 나타낼 때 자식 요소들 간의 배치 형태를 결정
 - `align-content`는 자식요소가 여러줄일 경우에만 동작한다.
 - `align-content`는 교차축을 기준으로 자식 요소들을 배치하며, 주축을 기준으로 자식 요소를 배치하는 `justify-content`의 유사하다.
 - align-items 와 align-content 비교 예시
 	- `align-items: flex-end` vs `align-content: flex-end`
 	![[CSS Layout Masterclass/assets/flexbox_fig05.png]]
 	- 양쪽 모두 `flex-direction: row;`이며, 같은 `height`와 `gap` 을 적용
-	- `align-items`의 경우 자식요소 전체를 교차축의 끝방향으로 배치시키지만, `height`값을 줄간격을 자동으로 계산해 지정한 `gap` 보다 더 많이 벌어진다. (부모 flexbox의 높이 값이 클수록 줄 간격도 커진다.)
+	- `align-items`의 경우 자식요소 전체를 교차축의 끝방향으로 배치시키지만, `height`값으로 줄 간격을 자동으로 계산해 지정한 `gap` 보다 더 많이 벌어진다. (부모 flexbox의 높이 값이 클수록 줄 간격도 커진다.)
 	- `align-content`의 경우 지정한 `gap`을 유지하며 자식 요소 전체를 교차축의 끝방향으로 배치시킨다. (부모 flexbox의 높이 값에 상관없이 자식요소들의 줄간격이 유지된다.)
 
 <br>
 
 ### flex-flow
-> `flex-direction` 과 `flex-wrap` 을 한번에 사용할 수 있는 속성
+> `flex-direction`과 `flex-wrap`을 한 번에 사용할 수 있는 속성
 - `flex-direction` 속성의 값(`row`, `row-reverse`, `column`, `column-reverse`)과 `flex-wrap` 속성의 값(`nowrap`, `wrap`, `wrap-reverse`)들을 모두 사용할 수 있다.
 - `flex-direction`과 `flex-wrap`의 속성 중 하나 또는 두 속성을 한번에 정해줄 수 있다. (속성 값의 순서는 상관없음)
 - 예시
@@ -418,7 +418,8 @@
 
 #### flex-basis
 > 해당 요소의 시작 크기를 설정하는 속성
-- Flexbox의 자식 요소들은 기본적으로 컨텐츠의 너비를 기본 크기로 갖지만, flex-basis를 통해 임의로 지정해 줄 수 있다.
+- Flexbox의 자식 요소들은 기본적으로 컨텐츠의 너비를 기본 크기로 갖지만, flex-basis를 통해 원하는 값으로 지정해 줄 수 있다.
+- `flex-basis` 주축(main-axsis)에 따라 너비가 아닌 높이의 기본 크기를 지정할 수도 있다. (부모의 `flex-direction: column;` 인 경우)
 - 예시
 	```css
 	/* style.css */
@@ -485,3 +486,13 @@
 			- (tomato, teal) = (813.77px, 558.23px)
 		- `group2`의 늘어난 크기
 			- (tomato, teal) = (313.77px, 313.77px)
+
+> [!INFO] `flex-grow`, `flex-shrink`, `flex-basis` 속성 응용
+> - 'min-width' or 'min-height' 구현
+> 	- `flex-grow` > 0
+> 	- `flex-shrink` = 0
+> 	- `flex-basis` = (원하는 최소 크기)
+> - 'max-width' or 'max-height' 구현
+> 	- `flex-grow` = 0
+> 	- `flex-shrink` > 0
+> 	- `flex-basis` = (원하는 최대 크기)
