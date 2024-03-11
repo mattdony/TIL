@@ -105,7 +105,7 @@
 ### flex-wrap
 > Flexbox 안의 자식요소들에 대해 다중라인 여부를 결정
 - **한 줄로 표시(Single Line)**
-	- `flex-wrap`의 기본값은 `nowrap` 으로, 자식 요소들을 한줄로 표현한다.
+	- `flex-wrap`의 기본값은 `nowrap` 으로, 자식 요소들을 한 줄로 표현한다.
 	- 자식 요소들의 총 넓이(width)가 부모인 flexbox의 넓이보다 큰 경우, 자식요소의 넓이가 축소된다.
 	- 예시
 		```css
@@ -172,7 +172,7 @@
 
 ### align-content
 > Flexbox로 자식요소를 여러 줄로 나타낼 때 자식 요소들 간의 배치 형태를 결정
-- `align-content`는 자식요소가 여러줄일 경우에만 동작한다.
+- `align-content`는 자식요소가 여러 줄인 경우에만 동작한다.
 - `align-content`는 교차축을 기준으로 자식 요소들을 배치하며, 주축을 기준으로 자식 요소를 배치하는 `justify-content`의 유사하다.
 - align-items 와 align-content 비교 예시
 	- `align-items: flex-end` vs `align-content: flex-end`
@@ -205,8 +205,7 @@
 		
 		/* flex-direction: column; */
 		/* flex-wrap: wrap; */
-		/* 위의 두 줄과 같은 기능 */
-		flex-flox: column wrap;
+		flex-flox: column wrap; /* 위의 두 줄과 같은 기능 */
 	}
 	```
 
@@ -329,12 +328,12 @@
 	}
 	
 	.child:first-child {
-		backgroud-color: tomaot;
+		background-color: tomaot;
 		flex-grow: 1.5;
 	}
 	
 	.child:last-child {
-		backgroud-color: teal;
+		background-color: teal;
 		flex-grow: 1;
 	}
 	```
@@ -438,23 +437,23 @@
 	}
 	
 	.group1:first-child {
-		backgroud-color: tomaot;
+		background-color: tomaot;
 		flex-grow: 1;
 	}
 
 	.group1:last-child {
-		backgroud-color: teal;
+		background-color: teal;
 		flex-grow: 1;
 	}
 
 	.group2:first-child {
-		backgroud-color: tomaot;
+		background-color: tomaot;
 		flex-grow: 1;
 		flex-basis: 500px;
 	}
 
 	.group2:last-child {
-		backgroud-color: teal;
+		background-color: teal;
 		flex-grow: 1;
 	}
 	```
@@ -496,3 +495,44 @@
 > 	- `flex-grow` = 0
 > 	- `flex-shrink` > 0
 > 	- `flex-basis` = (원하는 최대 크기)
+
+<br>
+
+#### flex
+> `flex-grow`, `flex-shrink`, `flex-basis` 속성을 한 번에 사용할 수 있는 속성
+- `flex`의 값으로 `flex-grow`, `flex-shrink`, `flex-basis` 순서대로 입력하셔 세 가지 속성을 한 번에 정의 할 수 있다.
+- 예시
+	```css
+	/* style.css */
+	.parents {
+		height: 250px;
+		display: felx;
+	}
+
+	.child {
+		/* flex-grow: 1; */
+		/* flex-shrink: 0; */
+		/* flex-basis: 500px; */
+		flex: 1 0 500px; /* 위의 세 줄과 같은 기능 */
+	}
+	```
+
+> [!TIP] Flexbox 연습 게임
+> - Flexbox Froggy ([https://flexboxfroggy.com/#ko](https://flexboxfroggy.com/#ko))
+
+---
+### 마무리
+> [!SUMMARY] **Flexbox 요약노트**
+> - 개념
+> 	- Flexbox와 관련된 대부분의 속성은 부모요소에 선언형으로 작성한다. 
+> 	- Flexbox는 주축(main-axsis)과 교차축(cross-axsis)이 있다.
+> - 관련속성
+> 	- `display: flex;` 해당요소를 flexbox로 선언
+> 	- 부모요소에 선언하는 속성
+> 		- `flex-direction`: 주축을 설정
+> 		- `flex-wrap`:  자식요소를 한 줄 또는 여러 줄로 나타낼지 설정
+> 		- `flex-flow`: `flex-direction` + `flex-wrap`
+> 		- `justify-content`: 주축 빙향으로 자식요소들의 배치 설정
+> 		- `align-items`: 교차축 방향으로 자식요소들을 감싸고 있는 아이템의 배치 설정
+> 		- `align-content`: 교차축 방향으로 자식요소들의 배치 설정(`flex-wrap: wrap;` 인 경우에만 적용됨)
+> 		- ``
