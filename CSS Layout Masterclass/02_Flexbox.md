@@ -533,6 +533,6 @@
 > 		- `flex-wrap`:  자식요소를 한 줄 또는 여러 줄로 나타낼지 설정
 > 		- `flex-flow`: `flex-direction` + `flex-wrap`
 > 		- `justify-content`: 주축 빙향으로 자식요소들의 배치 설정
-> 		- `align-items`: 교차축 방향으로 자식요소들을 감싸고 있는 아이템의 배치 설정
+> 		- `align-items`: 교차축 방향으로 자식 요소의 배치 설정(자식요소가 여러 줄인 경우 부모 요소의 교차축 크기를 고려해 한 줄의크기(=아이템)가 자동으로 결정)
 > 		- `align-content`: 교차축 방향으로 자식요소들의 배치 설정(`flex-wrap: wrap;` 인 경우에만 적용됨)
 > 		- ``
