@@ -522,7 +522,7 @@
 
 ---
 ### 마무리
-> [!SUMMARY] **Flexbox 요약노트**
+> [!SUMMARY] **Flexbox 요약**
 > - 개념
 > 	- Flexbox와 관련된 대부분의 속성은 부모요소에 선언형으로 작성한다. 
 > 	- Flexbox는 주축(main-axsis)과 교차축(cross-axsis)이 있다.
@@ -538,7 +538,7 @@
 > 	- 자식요소에 선언하는 속성
 > 		- `order`: 해당 자식요소의 순서를 설정
 > 		- `align-self`: 해당 자식요소의 교차축 방향에서의 위치를 설정
-> 		- `flex-grow`: 해당 자식 요소의 주축으로의 
-> 		- `flex-shrink`: 해당 자식 요소의 주축으로의 줄어드는 비율 설정
+> 		- `flex-grow`: 해당 자식 요소의 주축으로 늘어나는 비율 설정
+> 		- `flex-shrink`: 해당 자식 요소의 주축으로 줄어드는 비율 설정
 > 		- `flex-basis`: 해당 자식요소의 기본 크기를 설정
 > 		- `flex`: `flex-grow` + `flex-shrink` + `flex-basis`
