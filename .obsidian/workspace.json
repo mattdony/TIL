@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CSS Layout Masterclass/02_Flexbox.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 252.5
   },
   "right": {
     "id": "21a3555f1e16d433",
@@ -158,14 +158,14 @@
   },
   "active": "31b6db7546ed6f76",
   "lastOpenFiles": [
+    "CSS Layout Masterclass/01_Introduction.md",
+    "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/assets/flexbox_fig12.png",
     "CSS Layout Masterclass/assets/flexbox_fig11.png",
-    "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/assets/flexbox_fig10.png",
     "CSS Layout Masterclass/assets/flexbox_fig09.png",
     "CSS Layout Masterclass/assets/flexbox_fig08.png",
     "0. Glossary/Vite.md",
-    "CSS Layout Masterclass/01_Introduction.md",
     "CSS Layout Masterclass/README.md",
     "README.md",
     "CSS.md",
