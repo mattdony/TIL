@@ -4,5 +4,5 @@
 
 ---
 ## TIL Contents
-- [CSS - Masterclass](https://github.com/mattdony/TIL/tree/main/CSS%20Layout%20Masterclass)
+- [CSS - Layout Masterclass](https://github.com/mattdony/TIL/tree/main/CSS%20Layout%20Masterclass)
 - [Docker](https://github.com/mattdony/TIL/tree/main/Docker)
