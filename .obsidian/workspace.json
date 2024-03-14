@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "47dc5b81d81f130c",
+        "id": "c54076766df09700",
         "type": "tabs",
         "children": [
           {
-            "id": "093c04a9662594a1",
+            "id": "c2f3c17d83b02bac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,8 +148,9 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "093c04a9662594a1",
+  "active": "c2f3c17d83b02bac",
   "lastOpenFiles": [
+    "README.md",
     "CSS Layout Masterclass/README.md",
     "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/01_Introduction.md",
@@ -167,7 +160,6 @@
     "CSS Layout Masterclass/assets/flexbox_fig09.png",
     "CSS Layout Masterclass/assets/flexbox_fig08.png",
     "0. Glossary/Vite.md",
-    "README.md",
     "CSS.md",
     "\"CSS.md",
     "CSS Layout Masterclass/assets/flexbox_fig07.png",
