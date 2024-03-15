@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c54076766df09700",
+        "id": "25799a7d5c0342df",
         "type": "tabs",
         "children": [
           {
-            "id": "c2f3c17d83b02bac",
+            "id": "17274db9ad35dbfe",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -148,7 +148,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "c2f3c17d83b02bac",
+  "active": "17274db9ad35dbfe",
   "lastOpenFiles": [
     "README.md",
     "CSS Layout Masterclass/README.md",
