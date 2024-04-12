@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "25799a7d5c0342df",
+        "id": "4286b339ed14d634",
         "type": "tabs",
         "children": [
           {
-            "id": "17274db9ad35dbfe",
+            "id": "06be19370f109dfe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa5f64c155791f58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,7 +148,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "fa5f64c155791f58",
+  "active": "06be19370f109dfe",
   "lastOpenFiles": [
     "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/03_Grid.md",
