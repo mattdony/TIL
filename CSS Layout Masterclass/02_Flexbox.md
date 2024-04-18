@@ -56,7 +56,7 @@
 		- `row-reverse`: ⬅️ (오른쪽 > 왼쪽)
 		- `column`: ⬇️ (위 > 아래)
 		- `column-reverse`: ⬆️ (아래 > 위)
-	- `justify-conetnt` 속성을 통해 주축방향으로 요소들이 어떻게 배치될 것인지 설정 할 수 있다.
+	- `justify-content` 속성을 통해 주축방향으로 요소들이 어떻게 배치될 것인지 설정 할 수 있다.
 
 - **교차축(Cross Axis)**
 	- 주축과 수직을 이루며 `flex-direction` 을 통해 주축을 설정하면 수직방향으로 별도의 선언 없이 자동으로 교차축이 설정된다.
@@ -194,7 +194,7 @@
 		display: felx;
 		
 		/* flex-direction: column; 과 같은 기능*/
-		flex-flox: column;
+		flex-flow: column;
 	}
 	```
 
@@ -205,7 +205,7 @@
 		
 		/* flex-direction: column; */
 		/* flex-wrap: wrap; */
-		flex-flox: column wrap; /* 위의 두 줄과 같은 기능 */
+		flex-flow: column wrap; /* 위의 두 줄과 같은 기능 */
 	}
 	```
 
