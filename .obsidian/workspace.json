@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4286b339ed14d634",
+        "id": "cdb997f3ad6764ae",
         "type": "tabs",
         "children": [
           {
-            "id": "06be19370f109dfe",
+            "id": "dbca38021e235631",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -148,19 +148,19 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "06be19370f109dfe",
+  "active": "dbca38021e235631",
   "lastOpenFiles": [
-    "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/03_Grid.md",
+    "0. Glossary/Vite.md",
+    "CSS Layout Masterclass/01_Introduction.md",
+    "CSS Layout Masterclass/02_Flexbox.md",
     "README.md",
     "CSS Layout Masterclass/README.md",
-    "CSS Layout Masterclass/01_Introduction.md",
     "CSS Layout Masterclass/assets/flexbox_fig12.png",
     "CSS Layout Masterclass/assets/flexbox_fig11.png",
     "CSS Layout Masterclass/assets/flexbox_fig10.png",
     "CSS Layout Masterclass/assets/flexbox_fig09.png",
     "CSS Layout Masterclass/assets/flexbox_fig08.png",
-    "0. Glossary/Vite.md",
     "CSS.md",
     "\"CSS.md",
     "CSS Layout Masterclass/assets/flexbox_fig07.png",
