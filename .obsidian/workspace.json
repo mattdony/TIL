@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "6b00ac99dca4250b",
-        "type": "tabs",
+        "id": "4d4ba3a3085fb959",
+        "type": "split",
         "children": [
           {
-            "id": "947f8244da9dbf81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
-                "mode": "source",
-                "source": false
+            "id": "6b00ac99dca4250b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "947f8244da9dbf81",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CSS Layout Masterclass/03_Grid.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "ca503c0dd1f5c475",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0c9b69ee191f9c9d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CSS Layout Masterclass/02_Flexbox.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "right": {
     "id": "21a3555f1e16d433",
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "file": "CSS Layout Masterclass/03_Grid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "file": "CSS Layout Masterclass/03_Grid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md"
+                "file": "CSS Layout Masterclass/03_Grid.md"
               }
             }
           },
@@ -156,10 +182,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "3ab273d7277ef195",
+  "active": "947f8244da9dbf81",
   "lastOpenFiles": [
-    "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/02_Flexbox.md",
+    "CSS Layout Masterclass/03_Grid.md",
     "0. Glossary/Vite.md",
     "CSS Layout Masterclass/01_Introduction.md",
     "README.md",
