@@ -11,8 +11,12 @@
             "id": "947f8244da9dbf81",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSS Layout Masterclass/02_Flexbox.md"
+              }
             }
           },
           {
@@ -148,10 +156,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "947f8244da9dbf81",
+  "active": "3ab273d7277ef195",
   "lastOpenFiles": [
-    "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/03_Grid.md",
+    "CSS Layout Masterclass/02_Flexbox.md",
     "0. Glossary/Vite.md",
     "CSS Layout Masterclass/01_Introduction.md",
     "README.md",
