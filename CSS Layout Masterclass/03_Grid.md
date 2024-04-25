@@ -4,12 +4,12 @@
 - 기본 레이아웃(행과 열)을 설정
 	- `grid-template-columns`: 열의 갯수와 크기를 설정
 	- `grid-template-rows`: 행의 갯수와 크기를 설정
-- 예시 (2 x 2 크기의 레이아웃 설정)
+- 예시 (2 x 3 크기의 레이아웃 설정)
 	```css
 	/* style.css */
 	.parents {
 	display: grid;
-	grid-template-columns: 100px 200px;
+	grid-template-columns: 100px 200px 50px;
 	grid-template-rows: 200px 100px;
 	gap: 10px;
 	}
@@ -33,3 +33,10 @@
 		<div class="child">4</div>
 	</div>
 	```
+	![[CSS Layout Masterclass/assets/grid_fig01.png]]
+
+
+<br>
+
+### Grid Lines
+- Grid를 통해 그려지는 요소들은 기본적으로 (1 x 1)

@@ -4,15 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4d4ba3a3085fb959",
+        "id": "1b8faf23898eadf8",
         "type": "split",
         "children": [
           {
-            "id": "6b00ac99dca4250b",
+            "id": "ca503c0dd1f5c475",
             "type": "tabs",
             "children": [
               {
-                "id": "947f8244da9dbf81",
+                "id": "0c9b69ee191f9c9d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -26,11 +26,11 @@
             ]
           },
           {
-            "id": "ca503c0dd1f5c475",
+            "id": "c8a0693178d97938",
             "type": "tabs",
             "children": [
               {
-                "id": "0c9b69ee191f9c9d",
+                "id": "f5b4aea9ccdaa170",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "right": {
     "id": "21a3555f1e16d433",
@@ -182,10 +181,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "947f8244da9dbf81",
+  "active": "0c9b69ee191f9c9d",
   "lastOpenFiles": [
     "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/03_Grid.md",
+    "CSS Layout Masterclass/assets/grid_fig01.png",
+    "CSS Layout Masterclass/assets/grid_fig01.png",
     "0. Glossary/Vite.md",
     "CSS Layout Masterclass/01_Introduction.md",
     "README.md",
@@ -200,8 +201,6 @@
     "CSS Layout Masterclass/assets/flexbox_fig07.png",
     "CSS Layout Masterclass/assets/flexbox_fig01.png",
     "CSS Layout Masterclass/assets/flexbox_fig06.png",
-    "CSS Layout Masterclass/assets/flexbox_fig05.png",
-    "CSS Layout Masterclass/assets/flexbox_fig04.png",
     "0. Glossary/assets",
     "CSS Layout Masterclass/assets",
     "0. Glossary",
@@ -229,7 +228,6 @@
     "불법주정차 단속 및 차량견인 (시도로 지역대)_20230801_5페이지 표시.pdf",
     "무제 폴더/test.md",
     "test.md",
-    "Test02/test0.md",
-    "Test11/test.md"
+    "Test02/test0.md"
   ]
 }
