@@ -93,3 +93,45 @@
 	</div>
 	```
 	![[CSS Layout Masterclass/assets/grid_fig02.png]]
+
+<br>
+
+### Line Names
+- Grid 라인은 기본적으로 라인 번호를 갖지만 특정 이름을 지정해 줄 수 도 있다.
+	```css
+	/* style.css */
+	.parents {
+	display: grid;
+	grid-template-columns: [apple] 100px [banana] 200px [grape] 50px [melon];
+	grid-template-rows: [kor] 200px [jap] 100px [chn];
+	gap: 10px;
+	}
+
+	.child {
+	background-color: tomato;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 30px;
+	}
+
+	.child:first-child {
+	grid-row: kor / chn;
+	}
+
+	.child:last-child {
+	grid-column: banana / melon;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+		<div class="child">4</div>
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/grid_fig03.png]]

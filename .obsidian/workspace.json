@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md",
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md",
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md"
+                "file": "CSS Layout Masterclass/02_Flexbox.md"
               }
             }
           },
@@ -181,10 +181,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "0c9b69ee191f9c9d",
+  "active": "f5b4aea9ccdaa170",
   "lastOpenFiles": [
-    "CSS Layout Masterclass/assets/grid_fig02.png",
     "CSS Layout Masterclass/03_Grid.md",
+    "CSS Layout Masterclass/assets/grid_fig03.png",
+    "CSS Layout Masterclass/assets/grid_fig02.png",
     "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/assets/grid_fig01.png",
     "CSS Layout Masterclass/assets/grid_fig01.png",
@@ -200,7 +201,6 @@
     "CSS.md",
     "\"CSS.md",
     "CSS Layout Masterclass/assets/flexbox_fig07.png",
-    "CSS Layout Masterclass/assets/flexbox_fig01.png",
     "0. Glossary/assets",
     "CSS Layout Masterclass/assets",
     "0. Glossary",
