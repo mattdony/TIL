@@ -10,6 +10,7 @@
           {
             "id": "ca503c0dd1f5c475",
             "type": "tabs",
+            "dimension": 71.60940325497288,
             "children": [
               {
                 "id": "0c9b69ee191f9c9d",
@@ -28,6 +29,7 @@
           {
             "id": "c8a0693178d97938",
             "type": "tabs",
+            "dimension": 28.390596745027125,
             "children": [
               {
                 "id": "f5b4aea9ccdaa170",
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "file": "CSS Layout Masterclass/03_Grid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md",
+                "file": "CSS Layout Masterclass/03_Grid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS Layout Masterclass/02_Flexbox.md"
+                "file": "CSS Layout Masterclass/03_Grid.md"
               }
             }
           },
@@ -181,26 +183,26 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "f5b4aea9ccdaa170",
+  "active": "0c9b69ee191f9c9d",
   "lastOpenFiles": [
+    "CSS Layout Masterclass/assets/grid_fig06.png",
     "CSS Layout Masterclass/03_Grid.md",
+    "CSS Layout Masterclass/assets/grid_fig05.png",
+    "CSS Layout Masterclass/assets/grid_fig04.png",
+    "Pasted image 20240429215108.png",
+    "Pasted image 20240429215031.png",
+    "Pasted image 20240429214948.png",
+    "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/assets/grid_fig03.png",
     "CSS Layout Masterclass/assets/grid_fig02.png",
-    "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/assets/grid_fig01.png",
     "CSS Layout Masterclass/assets/grid_fig01.png",
     "0. Glossary/Vite.md",
     "CSS Layout Masterclass/01_Introduction.md",
     "README.md",
     "CSS Layout Masterclass/README.md",
-    "CSS Layout Masterclass/assets/flexbox_fig12.png",
-    "CSS Layout Masterclass/assets/flexbox_fig11.png",
-    "CSS Layout Masterclass/assets/flexbox_fig10.png",
-    "CSS Layout Masterclass/assets/flexbox_fig09.png",
-    "CSS Layout Masterclass/assets/flexbox_fig08.png",
     "CSS.md",
     "\"CSS.md",
-    "CSS Layout Masterclass/assets/flexbox_fig07.png",
     "0. Glossary/assets",
     "CSS Layout Masterclass/assets",
     "0. Glossary",

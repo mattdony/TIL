@@ -8,19 +8,19 @@
 	```css
 	/* style.css */
 	.parents {
-	display: grid;
-	grid-template-columns: 100px 200px 50px;
-	grid-template-rows: 200px 100px;
-	gap: 10px;
+		display: grid;
+		grid-template-columns: 100px 200px 50px;
+		grid-template-rows: 200px 100px;
+		gap: 10px;
 	}
 
 	.child {
-	background-color: tomato;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	font-size: 30px;
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
 	}
 	```
 
@@ -55,31 +55,31 @@
 	```css
 	/* style.css */
 	.parents {
-	display: grid;
-	grid-template-columns: 100px 200px 50px;
-	grid-template-rows: 200px 100px;
-	gap: 10px;
+		display: grid;
+		grid-template-columns: 100px 200px 50px;
+		grid-template-rows: 200px 100px;
+		gap: 10px;
 	}
 
 	.child {
-	background-color: tomato;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	font-size: 30px;
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
 	}
 
 	.child:first-child {
-	grid-row-start: 1;
-	grid-row-end: -1;
-	/* grid-row: 1 / -1; 위의 두 줄과 같은 기능 */
+		grid-row-start: 1;
+		grid-row-end: -1;
+		/* grid-row: 1 / -1; 위의 두 줄과 같은 기능 */
 	}
 
 	.child:last-child {
-	grid-column-start: 2;
-	grid-column-end: 4;
-	/* grid-column: 2 / 4; 위의 두 줄과 같은 기능 */
+		grid-column-start: 2;
+		grid-column-end: 4;
+		/* grid-column: 2 / 4; 위의 두 줄과 같은 기능 */
 	}
 	```
 
@@ -101,27 +101,27 @@
 	```css
 	/* style.css */
 	.parents {
-	display: grid;
-	grid-template-columns: [apple] 100px [banana] 200px [grape] 50px [melon];
-	grid-template-rows: [kor] 200px [jap] 100px [chn];
-	gap: 10px;
+		display: grid;
+		grid-template-columns: [apple] 100px [banana] 200px [grape] 50px [melon];
+		grid-template-rows: [kor] 200px [jap] 100px [chn];
+		gap: 10px;
 	}
 
 	.child {
-	background-color: tomato;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	font-size: 30px;
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
 	}
 
 	.child:first-child {
-	grid-row: kor / chn;
+		grid-row: kor / chn;
 	}
 
 	.child:last-child {
-	grid-column: banana / melon;
+		grid-column: banana / melon;
 	}
 	```
 
@@ -135,3 +135,163 @@
 	</div>
 	```
 	![[CSS Layout Masterclass/assets/grid_fig03.png]]
+
+<br>
+
+### Grid Template
+- `grid-template-columns`, `grid-template-rows`를 통해 전체 레아웃을 구성한 후 `grid-template-areas` 로 공간에 대한 이름을 설정하고, `grid-area`를 통해 공간을 바인딩 할 수 있다.
+- `gird-template` = `gird-template-columns` + `grid-template-rows` + `grid-template-areas`
+	```css
+	/* style.css */
+	body {
+		margin: 0;
+		padding: 0;
+	
+		display: grid;
+		/* 넓이는 뷰포트를 기본값으로 갖는다. */
+		grid-template-columns: 1fr 2fr 1fr 1fr;
+		/* 높이는 기본값이 0이므로 크기를 설정해줘야 한다. */
+		height: 100vh;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-areas:
+			"header header header header"
+			"content content content menu"
+			"content content content menu"
+			"footer footer footer footer";
+		/* 아래와 같이 grid-template 속성을 사용해 columns, rows, areas 를 한번에 설정할 수 있다. */
+		/* grid-template:
+			"header header header header" 1fr
+			"content content content menu" 1fr
+			"content content content menu" 1fr
+			"footer footer footer footer" 1fr / 1fr 2fr 1fr 1fr; */
+	}
+	
+
+	header {
+		background-color: aqua;
+		grid-area: header;
+	}
+	
+	section {
+		background-color: coral;
+		grid-area: content;
+	}
+	
+	aside {
+		background-color: forestgreen;
+		grid-area: menu;
+	}
+	
+	footer {
+		background-color: deeppink;
+		grid-area: footer;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<body>
+		<header></header>
+		<section></section>
+		<aside></aside>
+		<footer></footer>
+	</body>
+	```
+	![[CSS Layout Masterclass/assets/grid_fig04.png]]
+
+<br>
+
+### Span Keyword
+- Gird 라인 넘버나 이름으로 크기를 정하지 않고, 단순히 n개의 칸을 차지하게 싶을 때 `span` 키워드를 사용해 설정할 수 있다.
+	```css
+	/* style.css */
+	.parents {
+		display: grid;
+		grid-template-columns: 100px 200px 50px ;
+		grid-template-rows: 200px 100px;
+		gap: 10px;
+	}
+
+	.child {
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
+	}
+
+	.child:first-child {
+		background-color: khaki;
+		grid-row: span 2;
+	}
+
+	.child:last-child {
+		grid-column: span 2;
+		/* 아래와 같이 시작라인과 함께 사용할 수도 있음 */
+		/* grid-column: 2 / span 2; */
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+		<div class="child">4</div>
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/grid_fig05.png]]
+
+<br>
+
+### Auto Columns and Rows
+- 예상한 Grid 레이아웃의 크기를 벗어나는 요소에 대해 설정하는 속성이다.
+- Gird 레이아웃의 예상되는 크기를 벗어나는 속성에 대해서는 기본적으로 행(row)으로 추가되며 이는 `gird-auto-flow`의 기본값이 `row`임을 의미한다.
+	- `gird-auto-rows` 속성을 통해 새롭게 추가되는 요소들의 행의 크기를 조절할 수 있다.
+	- `gird-auto-columns` 속성을 통해 새롭게 추가되는 요소들의 열의 크기를 조절할 수 있다.
+	```css
+	/* style.css */
+	.parents {
+		display: grid;
+		/* "repeat(2, 1fr)" -> "1fr 1fr" 과 같은 의미 */
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 10px;
+		grid-auto-flow: column;
+		grid-auto-columns: 0.5fr;
+	}
+
+	.child {
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+		<div class="child">4</div>
+		<div class="child">5</div>
+		<div class="child">6</div>
+		<div class="child">7</div>
+		<div class="child">8</div>
+		<div class="child">9</div>
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/grid_fig06.png]]
+	- (2 x 2) 를 예상하고 만들었지만, 더 늘어나는 속성에 대해 컬럼으로 채워지면서 0.5fr의 크기를 갖도록 설정
+
+<br>
+
+### Align and Justify Items
+- 설계한 개별의 공간(셀) 안에 요소의 배치를 결정하는 속성이다.
+- 
