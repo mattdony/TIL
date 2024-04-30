@@ -293,7 +293,70 @@
 <br>
 
 ### Align and Justify Items
+> - [*] 부모 요소에서 설정하는 row, column 의 크기가 자식 요소의 크기와 항상 같지는 않다.(다만, 자식 요소의 높이와 넓이를 별로도 지정해주지 않으면, 자식요소의 크기는 부모요소에서 선언한 셀의 크기와 같은 기본값을 갖는다.)
 - 설계한 개별의 공간(셀) 안에 요소를 배치하기 위한 속성이다.
-	- `justify-items`: 
-	- `align-items`: 
-- 
+- 부모에서 요소를 설정해 자식 요소 전체가 배치되게 하는 속성이다.
+	- `justify-items`: 가로 방향으로 자식 요소의 위치를 특정한다.
+	- `align-items`: 세로 방향으로 자식 요소의 위치를 특정한다.
+	- `place-items`: `align-items` + `justify-items`
+- 자식 요소 개별로 선언해 해당 요소의 위치만 특정한다.
+	- `justify-self`: 가로 방향의 자신의 위치를 특정한다.
+	- `align-self`: 세로 방향으로 자신의 위치를 특정한다.
+	- `place-self`: `align-self` + `justify-self`
+	```css
+	/* style.css */
+	.parents {
+		display: grid;
+		/* "repeat(2, 1fr)" -> "1fr 1fr" 과 같은 의미 */
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 10px;
+		grid-auto-flow: column;
+		grid-auto-columns: 1fr;
+		align-items: end;
+		justify-items: start;
+		/* 위의 두 줄과 같은 기능 */
+		/* place-items: end start; */
+	}
+
+	.child {
+		width: 50px;
+		height: 50px;
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
+	}
+
+	.child:nth-child(6) {
+		background-color: forestgreen;
+		grid-column: span 2;
+		/* align-self: center;
+		justify-self: center; */
+		/* 위의 두 줄과 같은 기능 */
+		place-self: center;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+		<div class="child">4</div>
+		<div class="child">5</div>
+		<div class="child">6</div>
+		<div class="child">7</div>
+		<div class="child">8</div>
+		<div class="child">9</div>
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/grid_fig07.png]]
+
+<br>
+
+### Align and Justify Content
+- 셀 자체를 배치하기 위한 속성이다.
