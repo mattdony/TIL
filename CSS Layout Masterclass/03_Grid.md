@@ -360,3 +360,7 @@
 
 ### Align and Justify Content
 - 셀 자체를 배치하기 위한 속성이다.
+	- `justify-content`: 가로 방향으로 셀 배치를 설정한다.
+	- `align-content`: 세로 방향으로 셀 배치를 설정한다.
+	- `place-content`: `align-content` + `justify-content`
+- 셀 배치를 위해서는 여분의 공간을 필요로 한다.
