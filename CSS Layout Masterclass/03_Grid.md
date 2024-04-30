@@ -444,7 +444,7 @@
 ### Auto Fill and Auto Fit
 - 반응형 그리드로 만들어주는 속성이다.
 	- `auto-fill`: 사용자 설정에 따라 셀을 최대한 많이 생성해 자동으로 배치하는 키워드이다.
-	- `auto-fit`: 사용자 설정에 따라 셀을 최대한 많이 생성해 자동으로 배치하되, 비어 있는 셀은 자동으로 병합한다.
+	- `auto-fit`: 사용자 설정에 따라 셀을 최대한 많이 생성해 자동으로 배치하되, 비어 있는 셀은 병합시키는 키워드이다.
 	```css
 	/* style.css */
 	.parents {
@@ -473,4 +473,8 @@
 		<div class="child">1fr</div>
 	</div>
 	```
-	
+	![[CSS Layout Masterclass/assets/grid_fig10.png]]
+
+> [!TIP] Grid 연습 게임
+> - Grid Garden ([https://cssgridgarden.com/#ko](https://cssgridgarden.com/#ko))
+
