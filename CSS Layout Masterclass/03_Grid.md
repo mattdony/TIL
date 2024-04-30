@@ -364,3 +364,45 @@
 	- `align-content`: 세로 방향으로 셀 배치를 설정한다.
 	- `place-content`: `align-content` + `justify-content`
 - 셀 배치를 위해서는 여분의 공간을 필요로 한다.
+	```css
+	/* style.css */
+	.parents {
+		display: grid;
+		height: 100vh;
+		grid-template-columns: repeat(3, 100px);
+		grid-template-rows: repeat(2, 100px);
+		gap: 10px;
+		grid-auto-flow: column;
+		grid-auto-columns: 1fr;
+		align-content: center;
+		justify-content: space-between;
+		/* 위의 두 줄과 같은 기능 */
+		/* place-content: center space-between; */
+	}
+
+	.child {
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+		<div class="child">4</div>
+		<div class="child">5</div>
+		<div class="child">6</div>
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/grid_fig08.png]]
+
+<br>
+
+### Auto Sizing and Minmax
