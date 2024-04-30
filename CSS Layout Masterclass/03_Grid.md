@@ -293,5 +293,7 @@
 <br>
 
 ### Align and Justify Items
-- 설계한 개별의 공간(셀) 안에 요소의 배치를 결정하는 속성이다.
+- 설계한 개별의 공간(셀) 안에 요소를 배치하기 위한 속성이다.
+	- `justify-items`: 
+	- `align-items`: 
 - 
