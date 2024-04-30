@@ -406,3 +406,71 @@
 <br>
 
 ### Auto Sizing and Minmax
+- 내용물의 크기에 따라 자동으로 크기를 설정해주는 키워드이다.
+	- `max-content`: 해당 셀의 자식요소 길이 만큼을 셀의 넓이로 한다. 
+	- `min-content`: 해당 셀의 자식요소가 가질 수 있는 최소한의 넓이 만큼을 셀의 넓이로 한다.
+	- `minmax([min], [max])`: 해당 셀이 가질 수 있는 최소, 최대의 크기를 설정한다.
+	```css
+	/* style.css */
+	.parents {
+		display: grid;
+		height: 100vh;
+		gap: 10px;
+		grid-template-columns: max-content min-content minmax(300px, 1fr);
+	}
+
+	.child {
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">-=- maxcontent -=-</div>
+		<div class="child">-=- mincontent -=-</div>
+		<div class="child">1fr</div>
+	</div>
+	```
+	![[CSS Layout Masterclass/assets/grid_fig09.png]]
+
+<br>
+
+### Auto Fill and Auto Fit
+- 반응형 그리드로 만들어주는 속성이다.
+	- `auto-fill`: 사용자 설정에 따라 셀을 최대한 많이 생성해 자동으로 배치하는 키워드이다.
+	- `auto-fit`: 사용자 설정에 따라 셀을 최대한 많이 생성해 자동으로 배치하되, 비어 있는 셀은 자동으로 병합한다.
+	```css
+	/* style.css */
+	.parents {
+		display: grid;
+		height: 100vh;
+		gap: 10px;
+		grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+		/* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+	}
+
+	.child {
+		background-color: tomato;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 30px;
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<div class="parents">
+		<div class="child">1fr</div>
+		<div class="child">1fr</div>
+		<div class="child">1fr</div>
+	</div>
+	```
+	
