@@ -517,6 +517,8 @@
 	}
 	```
 
+<br>
+
 > [!TIP] Flexbox 연습 게임
 > - Flexbox Froggy ([https://flexboxfroggy.com/#ko](https://flexboxfroggy.com/#ko))
 

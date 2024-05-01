@@ -475,6 +475,8 @@
 	```
 	![[CSS Layout Masterclass/assets/grid_fig10.png]]
 
+<br>
+
 > [!TIP] Grid 연습 게임
 > - Grid Garden ([https://cssgridgarden.com/#ko](https://cssgridgarden.com/#ko))
 
