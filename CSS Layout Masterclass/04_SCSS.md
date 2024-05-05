@@ -6,3 +6,8 @@
 	npm add -D sass
 	```
 
+<br>
+
+### Nesting
+- 중첩된 css를 사용가능하게 해준다.
+- 
