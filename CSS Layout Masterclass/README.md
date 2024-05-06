@@ -2,4 +2,4 @@
 ### CSS Layout Masterclass Contents
 - [Flexbox](https://github.com/mattdony/TIL/blob/main/CSS%20Layout%20Masterclass/02_Flexbox.md)
 - [Grid](https://github.com/mattdony/TIL/blob/main/CSS%20Layout%20Masterclass/03_Grid.md)
-- [SCSS]()
+- [SCSS](https://github.com/mattdony/TIL/blob/main/CSS%20Layout%20Masterclass/04_SCSS.md)

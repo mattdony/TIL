@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS Layout Masterclass/04_SCSS.md",
+                "file": "CSS Layout Masterclass/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Masterclass/04_SCSS.md",
+                "file": "CSS Layout Masterclass/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Masterclass/04_SCSS.md",
+                "file": "CSS Layout Masterclass/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS Layout Masterclass/04_SCSS.md"
+                "file": "CSS Layout Masterclass/README.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "b5517b5a32342eaa",
   "lastOpenFiles": [
-    "CSS Layout Masterclass/assets/scss_fig03.png",
+    "README.md",
     "CSS Layout Masterclass/04_SCSS.md",
+    "CSS Layout Masterclass/assets/scss_fig03.png",
     "CSS Layout Masterclass/assets/scss_fig02.png",
     "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/assets/scss_fig01.png",
@@ -167,7 +168,6 @@
     "CSS Layout Masterclass/README.md",
     "CSS Layout Masterclass/01_Introduction.md",
     "CSS Layout Masterclass/02_Flexbox.md",
-    "README.md",
     "CSS Layout Masterclass/assets/grid_fig10.png",
     "CSS Layout Masterclass/assets/grid_fig09.png",
     "CSS Layout Masterclass/assets/grid_fig08.png",
