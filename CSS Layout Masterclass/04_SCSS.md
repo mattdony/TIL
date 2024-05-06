@@ -188,5 +188,59 @@
 
 <br>
 
-### Responsive Mixins (Content)
-- 
+### Responsive Mixin (Content)
+- `@mixin` 으로 선언 이후에 사용시 추가적인 속성을 더하고 싶은 경우 `@content` 로 추가 가능하다.
+	```scss
+	// style.scss
+	$breakpoint-sm: 480px;
+	$breakpoint-md: 768px;
+	$breakpoint-lg: 1024px;
+	$breakpoint-xl: 1200px;
+
+	@mixin smDevice {
+		@media screen and (min-width: $breakpoint-sm) {
+			@content;
+		}
+	}
+	
+	@mixin mdDevice {
+		@media screen and (min-width: $breakpoint-md) {
+			@content;
+		}
+	}
+	
+	@mixin lgDevice {
+		@media screen and (min-width: $breakpoint-lg) {
+			@content;
+		}
+	}
+	
+	@mixin xlDevice {
+		@media screen and (min-width: $breakpoint-xl) {
+			@content;
+		}
+	}
+
+	body {
+		@include smDevice {
+			background-color: yellowgreen;
+		}
+
+		@include mdDevice {
+			background-color: tomato;
+		}
+
+		@include lgDevice {
+			background-color: deepskyblue;
+		}
+
+		@include xlDevice {
+			background-color: pink;
+		}
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<body>화면 크기에 따라 배경색이 변합니다.</body>
+	```
