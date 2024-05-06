@@ -9,5 +9,91 @@
 <br>
 
 ### Nesting
-- 중첩된 css를 사용가능하게 해준다.
-- 
+- css를 중첩해 중복되는 코드를 줄일 수 있게 해준다.
+- 사람의 눈으로 보기에 기존의 css보다 직관적이다.
+	```css
+	/* style.css */
+	body {
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		display: flex;
+		gap: 10px;
+	}
+
+
+	ul li {
+		background-color: tomato;
+		color: whitesmoke;
+		padding: 5px 10px;
+		border-radius: 7px;
+	}
+
+	ul li:hover {
+		opacity: 0.8;
+	}
+
+	ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: whitesmoke;
+	}
+
+	ul li a:hover {
+		color: darkslateblue;
+	}
+	```
+
+	```scss
+	// style.scss
+	body {
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		display: flex;
+		gap: 10px;
+
+		li {
+			background-color: tomato;
+			color: whitesmoke;
+			padding: 5px 10px;
+			border-radius: 7px;
+
+			&:hover {
+				opacity: 0.8;
+			}
+			
+			a {
+				text-decoration: none;
+				text-transform: uppercase;
+				color: whitesmoke;
+
+				&:hover {
+					color: darkslateblue;
+				}
+			}
+		}
+	}
+	```
+
+	```html
+	<!-- index.html -->
+	<body>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</body>
+	```
+	![[CSS Layout Masterclass/assets/scss_fig01.png]]
+
+<br>
+
+### @extend
