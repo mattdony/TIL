@@ -98,7 +98,7 @@
 
 ### Extend
 - 공통된 속성을 정의하고 `@extend`로 상속 받는 것처럼 활용해 코드를 재활용 할 수 있다.
-- 정의 또는 사용 시 `%` 기호를 사용한다.
+- 선언 및 사용 시 `%` 기호를 사용한다.
 	```scss
 	// style.scss
 	body {
@@ -147,13 +147,16 @@
 ### Mixin
 - `@extend`를 사용할 때와 비슷하지만 특정 속성 값에 대해, 사용할때 해당 속성을 결정할 수 있는 argument로 전달 받아 사용한다.
 - `@mixin` 으로 선언하고, `@include` 키워드로 사용한다.
+- 선언 시 기본값을 설정해줄수 있다.
 	```scss
 	// style.scss
 	body {
 		font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	}
 
-	@mixin alert {
+	@mixin alert($bgColor: white, $txtColor: white) {
+		background-color: $bgColor;
+		color: $txtColor;
 		margin: 10px;
 		padding: 10px 20px;
 		border-radious: 10px;
@@ -161,18 +164,15 @@
 	}
 	
 	.success {
-		@extend %alert, textColor;
-		backgroud-color: green;
+		@includ alert(green, white);
 	}
 
 	.warning {
-		@extend %alert;
-		backgroud-color: yellow;
+		@includ alert(yellow);
 	}
 
 	.error {
-		@extend %alert;
-		backgroud-color: tomato;
+		@includ alert($txtColor: deeppink);
 	}
 	```
 
@@ -184,3 +184,9 @@
 		<span class="error">On no! Something is wrong!</span>
 	</body>
 	```
+	![[CSS Layout Masterclass/assets/scss_fig03.png]]
+
+<br>
+
+### Responsive Mixins (Content)
+- 
