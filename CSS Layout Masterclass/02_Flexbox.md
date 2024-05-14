@@ -406,7 +406,7 @@
 
 	![[CSS Layout Masterclass/assets/flexbox_fig10.png]]
 	- 결과 화면의 너비: 796px
-	- 화면의 크기가 줄어듬에 따라 자식 요소들의 컨턴츠를 여백이 먼저 줄어든다.
+	- 화면의 크기가 줄어듬에 따라 자식 요소들에서 컨텐츠의 여백이 먼저 줄어든다.
 
 	![[CSS Layout Masterclass/assets/flexbox_fig11.png]]
 	- 결과 화면의 너비: 556px
