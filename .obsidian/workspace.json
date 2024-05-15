@@ -11,8 +11,12 @@
             "id": "36ca5076fe67b2d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSS Layout Masterclass/README.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "right": {
     "id": "21a3555f1e16d433",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSS Layout Masterclass/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSS Layout Masterclass/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSS Layout Masterclass/README.md"
+              }
             }
           },
           {
@@ -151,10 +158,11 @@
   },
   "active": "36ca5076fe67b2d3",
   "lastOpenFiles": [
+    "Practice.md",
+    "CSS Layout Masterclass/README.md",
     "CSS Layout Masterclass/04_SCSS.md",
     "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/02_Flexbox.md",
-    "CSS Layout Masterclass/README.md",
     "README.md",
     "CSS Layout Masterclass/assets/scss_fig03.png",
     "CSS Layout Masterclass/assets/scss_fig02.png",
