@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Glossary/\"BEM\" Class Naming Rules.md",
+                "file": "0. Glossary/BEM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. Glossary/\"BEM\" Class Naming Rules.md",
+                "file": "0. Glossary/BEM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Glossary/\"BEM\" Class Naming Rules.md",
+                "file": "0. Glossary/BEM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Glossary/\"BEM\" Class Naming Rules.md"
+                "file": "0. Glossary/BEM.md"
               }
             }
           },
@@ -158,7 +158,7 @@
   },
   "active": "7bef14c240c5b1b2",
   "lastOpenFiles": [
-    "0. Glossary/\"BEM\" Class Naming Rules.md",
+    "0. Glossary/BEM.md",
     "CSS Layout Masterclass/README.md",
     "Practice.md",
     "CSS Layout Masterclass/04_SCSS.md",
