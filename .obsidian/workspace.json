@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9a6cf18a64199dc0",
+        "id": "819e620851a04119",
         "type": "tabs",
         "children": [
           {
-            "id": "36ca5076fe67b2d3",
+            "id": "7bef14c240c5b1b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS Layout Masterclass/README.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Masterclass/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Masterclass/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CSS Layout Masterclass/README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,10 +148,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "36ca5076fe67b2d3",
+  "active": "7bef14c240c5b1b2",
   "lastOpenFiles": [
-    "Practice.md",
     "CSS Layout Masterclass/README.md",
+    "Practice.md",
     "CSS Layout Masterclass/04_SCSS.md",
     "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/02_Flexbox.md",
