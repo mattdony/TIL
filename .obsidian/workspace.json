@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md",
+                "file": "CSS Layout Masterclass/04_SCSS.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "right": {
     "id": "21a3555f1e16d433",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md",
+                "file": "CSS Layout Masterclass/04_SCSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md",
+                "file": "CSS Layout Masterclass/04_SCSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS Layout Masterclass/03_Grid.md"
+                "file": "CSS Layout Masterclass/04_SCSS.md"
               }
             }
           },
@@ -158,13 +159,13 @@
   },
   "active": "6a145adee36b15e1",
   "lastOpenFiles": [
+    "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/02_Flexbox.md",
     "CSS Layout Masterclass/README.md",
     "README.md",
     "CSS Layout Masterclass/04_SCSS.md",
     "CSS Layout Masterclass/assets/scss_fig03.png",
     "CSS Layout Masterclass/assets/scss_fig02.png",
-    "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/assets/scss_fig01.png",
     "0. Glossary/Vite.md",
     "CSS Layout Masterclass/01_Introduction.md",
