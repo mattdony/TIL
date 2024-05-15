@@ -4,5 +4,5 @@
 	2. 요소(Element)
 	3. 변경자(Modifier)
 - 형태
-	`Block_Element--Modifier`
+	`Block__Element-Modifier`
 (작성중...)
