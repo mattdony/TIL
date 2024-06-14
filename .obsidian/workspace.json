@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LangChain/Agent.md",
+                "file": "LangChain/1. Theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LangChain/Agent.md",
+                "file": "LangChain/1. Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LangChain/Agent.md",
+                "file": "LangChain/1. Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LangChain/Agent.md"
+                "file": "LangChain/1. Theory.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "da51b6bd67d05097",
   "lastOpenFiles": [
+    "LangChain/Agent.md",
+    "LangChain/1. Theory.md",
     "CSS Layout Masterclass/02_Flexbox.md",
     "Docker/DockerBasic_01_기본 명령어, 이미지 만들기.md",
-    "LangChain/Agent.md",
     "Docker/DockerBasic_02_명령하기, 진입점.md",
     "CSS Layout Masterclass/01_Introduction.md",
     "CSS Layout Masterclass/03_Grid.md",
@@ -202,7 +203,6 @@
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
     "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project",
     "claion"
   ]
