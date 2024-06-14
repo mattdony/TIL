@@ -11,8 +11,12 @@
             "id": "da51b6bd67d05097",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LangChain/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 200
   },
   "right": {
     "id": "21a3555f1e16d433",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LangChain/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LangChain/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LangChain/무제 파일.md"
+              }
             }
           },
           {
@@ -150,20 +158,23 @@
   },
   "active": "da51b6bd67d05097",
   "lastOpenFiles": [
-    "0. Glossary/Poetry.md",
-    "Docker/DockerBasic_02_명령하기, 진입점.md",
+    "CSS Layout Masterclass/01_Introduction.md",
+    "CSS Layout Masterclass/02_Flexbox.md",
+    "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/04_SCSS.md",
+    "Docker/DockerBasic_02_명령하기, 진입점.md",
+    "Docker/DockerBasic_01_기본 명령어, 이미지 만들기.md",
+    "LangChain/무제 파일.md",
+    "README.md",
+    "LangChain",
+    "0. Glossary/Poetry.md",
     "0. Glossary/BEM.md",
     "CSS Layout Masterclass/README.md",
     "Practice.md",
-    "CSS Layout Masterclass/03_Grid.md",
-    "CSS Layout Masterclass/02_Flexbox.md",
-    "README.md",
     "CSS Layout Masterclass/assets/scss_fig03.png",
     "CSS Layout Masterclass/assets/scss_fig02.png",
     "CSS Layout Masterclass/assets/scss_fig01.png",
     "0. Glossary/Vite.md",
-    "CSS Layout Masterclass/01_Introduction.md",
     "CSS Layout Masterclass/assets/grid_fig10.png",
     "CSS Layout Masterclass/assets/grid_fig09.png",
     "CSS Layout Masterclass/assets/grid_fig08.png",
@@ -176,7 +187,6 @@
     "0. Glossary/assets",
     "CSS Layout Masterclass/assets",
     "0. Glossary",
-    "Docker/DockerBasic_01_기본 명령어, 이미지 만들기.md",
     "CSS Layout Masterclass",
     "EM Worship Service/20240213_EM_Meeting.md",
     "EM Worship Service/20240204_EM_Meeting.md",
@@ -194,8 +204,6 @@
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project",
-    "claion/무제 파일.md",
-    "claion",
-    "불법주정차 단속 및 차량견인 (시도로 지역대)_20230801_5페이지 표시.pdf"
+    "claion"
   ]
 }
