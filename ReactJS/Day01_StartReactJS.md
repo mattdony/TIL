@@ -1,3 +1,2 @@
 ### ReactJS Basic
-작성규칙
-1. body 에 직접적으로 태그(span, button,...)를 생성하는 것을 지양한다.
+- 전통적인 html, css, javascript로 웹을 개발하기 위해서는 html에 요소를 javascript에
