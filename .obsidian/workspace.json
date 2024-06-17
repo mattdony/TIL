@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "63357679696fc04e",
+        "id": "6e469f8656d0594b",
         "type": "tabs",
         "children": [
           {
-            "id": "e10a31d1ea9f67be",
+            "id": "c0caa64ad3d231ed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "React/Day01_StartReact.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 239.5
   },
   "right": {
     "id": "21a3555f1e16d433",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "React/Day01_StartReact.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "React/Day01_StartReact.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "React/Day01_StartReact.md"
+              }
             }
           },
           {
@@ -148,8 +156,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e10a31d1ea9f67be",
+  "active": "3ab273d7277ef195",
   "lastOpenFiles": [
+    "Practice.md",
+    "React/Day01_StartReact.md",
+    "React",
+    "README.md",
     "LangChain/Agent.md",
     "LangChain/1. Theory.md",
     "CSS Layout Masterclass/02_Flexbox.md",
@@ -158,12 +170,10 @@
     "CSS Layout Masterclass/01_Introduction.md",
     "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/04_SCSS.md",
-    "README.md",
     "LangChain",
     "0. Glossary/Poetry.md",
     "0. Glossary/BEM.md",
     "CSS Layout Masterclass/README.md",
-    "Practice.md",
     "CSS Layout Masterclass/assets/scss_fig03.png",
     "CSS Layout Masterclass/assets/scss_fig02.png",
     "CSS Layout Masterclass/assets/scss_fig01.png",
@@ -194,8 +204,6 @@
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
     "Projects - Demo Project/Why You Should Be Taking More Notes.md",
-    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects - Demo Project",
-    "claion"
+    "Projects - Demo Project"
   ]
 }
