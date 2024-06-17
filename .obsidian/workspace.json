@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Day01_StartReact.md",
+                "file": "ReactJS/Day01_StartReactJS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Day01_StartReact.md",
+                "file": "ReactJS/Day01_StartReactJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Day01_StartReact.md",
+                "file": "ReactJS/Day01_StartReactJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Day01_StartReact.md"
+                "file": "ReactJS/Day01_StartReactJS.md"
               }
             }
           },
@@ -156,11 +156,11 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "3ab273d7277ef195",
+  "active": "c0caa64ad3d231ed",
   "lastOpenFiles": [
     "Practice.md",
-    "React/Day01_StartReact.md",
-    "React",
+    "ReactJS/Day01_StartReactJS.md",
+    "ReactJS",
     "README.md",
     "LangChain/Agent.md",
     "LangChain/1. Theory.md",
