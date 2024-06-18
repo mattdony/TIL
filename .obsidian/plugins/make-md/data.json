@@ -39,7 +39,9 @@
   "sidebarTabs": true,
   "showRibbon": true,
   "deleteFileOption": "trash",
-  "expandedSpaces": [],
+  "expandedSpaces": [
+    "/"
+  ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
   "inlineStickerMenu": true,
