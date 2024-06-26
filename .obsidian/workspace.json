@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typescript/01_Introduction.md",
+                "file": "Typescript/02_Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typescript/01_Introduction.md",
+                "file": "Typescript/02_Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typescript/01_Introduction.md",
+                "file": "Typescript/02_Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typescript/01_Introduction.md"
+                "file": "Typescript/02_Type.md"
               }
             }
           },
@@ -166,12 +166,13 @@
   },
   "active": "379a8939960c06d3",
   "lastOpenFiles": [
+    "CSS Layout Masterclass/04_SCSS.md",
+    "Typescript/02_Type.md",
+    "Typescript/01_Introduction.md",
     "README.md",
     "Typescript/README.md",
     "CSS Layout Masterclass/README.md",
-    "Typescript/01_Introduction.md",
     "CSS Layout Masterclass/01_Introduction.md",
-    "CSS Layout Masterclass/04_SCSS.md",
     "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/02_Flexbox.md",
     "ReactJS/README.md",
@@ -211,7 +212,6 @@
     "20240213_EM_Meeting.md",
     "2024-02-13.md",
     "EM 2024년도 상반기 활동 계획.md",
-    "강원대AI라이브러리/Jenkins 설정.md",
     "무제 파일.canvas"
   ]
 }
