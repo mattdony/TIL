@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LangChain/1. Theory.md",
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LangChain/1. Theory.md",
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LangChain/1. Theory.md",
+                "file": "CSS Layout Masterclass/02_Flexbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LangChain/1. Theory.md"
+                "file": "CSS Layout Masterclass/02_Flexbox.md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "f8f8d553016c553f",
   "lastOpenFiles": [
-    "LangChain/Agent.md",
     "LangChain/1. Theory.md",
+    "LangChain/Agent.md",
     "Tags",
     "ReactJS/Day01_StartReactJS.md",
     "Practice.md",
