@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "be7c5e6e72f84989",
+        "id": "7148dfa39078c201",
         "type": "tabs",
         "children": [
           {
-            "id": "384e7e6ab8ce1324",
+            "id": "379a8939960c06d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Typescript/01_Introduction.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Typescript/01_Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Typescript/01_Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Typescript/01_Introduction.md"
+              }
             }
           },
           {
@@ -156,7 +164,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "384e7e6ab8ce1324",
+  "active": "379a8939960c06d3",
   "lastOpenFiles": [
     "README.md",
     "Typescript/README.md",
