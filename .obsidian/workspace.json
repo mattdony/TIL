@@ -11,8 +11,12 @@
             "id": "b99b08c25405ac5d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ReactJS/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ReactJS/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ReactJS/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ReactJS/README.md"
+              }
             }
           },
           {
@@ -158,19 +166,19 @@
   },
   "active": "b99b08c25405ac5d",
   "lastOpenFiles": [
+    "ReactJS/Day01_StartReactJS.md",
+    "ReactJS/README.md",
+    "README.md",
     "LangChain/Agent.md",
     "LangChain/1. Theory.md",
     "Docker/DockerBasic_02_명령하기, 진입점.md",
     "Docker/DockerBasic_01_기본 명령어, 이미지 만들기.md",
-    "React/README.md",
-    "README.md",
     "React",
     "CSS Layout Masterclass/README.md",
     "CSS Layout Masterclass/04_SCSS.md",
     "CSS Layout Masterclass/03_Grid.md",
     "CSS Layout Masterclass/02_Flexbox.md",
     "Tags",
-    "ReactJS/Day01_StartReactJS.md",
     "Practice.md",
     "ReactJS",
     "CSS Layout Masterclass/01_Introduction.md",
